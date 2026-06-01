@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a JSON configuration for an AWS Lambda function that sets environment variables for database connection",
+    "format": "json",
+    "solution_criteria": "Must be a valid JSON structure outlining an AWS Lambda resource configuration. It must include environment variable settings for standard database properties such as host, port, database name, username, and securely reference the password (e.g., using Secrets Manager dynamic references placeholder syntax)."
+  },
+  {
+    "task": "Write a Python function to extract the AWS region from an ARN (Amazon Resource Name) string",
+    "format": "python",
+    "solution_criteria": "Must be a valid Python function that takes a standard ARN string as input and accurately extracts and returns the region code (e.g., us-east-1). It must safely handle missing regions or legacy/malformed ARN formats."
+  },
+  {
+    "task": "Design a regular expression to validate a valid AWS EC2 instance ID (format: i-[alphanumeric characters])",
+    "format": "regex",
+    "solution_criteria": "Must be a valid regular expression compatible with Python's re engine. It must strictly enforce the 'i-' prefix followed by valid alphanumeric characters, safely matching legacy 8-character and modern 17-character AWS resource identifiers."
+  }
+]
